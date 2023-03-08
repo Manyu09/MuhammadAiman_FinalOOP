@@ -1,0 +1,128 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+    background-image: url('fb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .nav-link.active,
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .dropdown-menu {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .dropdown-item:hover {
+    color: #007bff;
+  }
+  
+  /* Meals styles */
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  #meals {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #meals > div {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #meals h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  #meals img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  #meals p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #meals ul {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  #meals ul li {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  #meals iframe {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* Center the image */
+img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Make the image smaller */
+  img {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+  }
+
+
+  
+  
